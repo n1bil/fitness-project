@@ -4,6 +4,7 @@ import OurClasses from "@/scenes/ourClasses";
 import Benefits from '@/scenes/benefits';
 import ContactUs from '@/scenes/contactUs';
 import Navbar from "@/scenes/navbar";
+import Footer from "@/scenes/footer";
 import { SelectedPage } from "@/shared/types.ts";
 
 
@@ -34,6 +35,7 @@ function App() {
             <Benefits setSelectedPage={setSelectedPage} />
             <OurClasses setSelectedPage={setSelectedPage} />
             <ContactUs setSelectedPage={setSelectedPage} />
+            <Footer />
         </div>
     );
 }
